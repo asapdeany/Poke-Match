@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_gameplay"
+    tools:context="com.example.deansponholz.poke_match.GameplayActivity"
+    android:background="@android:color/white">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/game_linear_layout_container"
+        android:layout_marginTop="@dimen/tileSize">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <fragment
+                    android:layout_height="wrap_content"
+                    tools:layout="@layout/fragment_game_menu"
+                    class="com.example.deansponholz.poke_match.GameplayControl"
+                    android:id="@+id/gameInstanceMenuFragment"
+                    android:layout_width="wrap_content" />
+
+            </LinearLayout>
+
+            <fragment
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:layout="@layout/fragment_game"
+                android:id="@+id/gameInstanceFragment"
+                class="com.example.deansponholz.poke_match.GameplayFragment" />
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <include layout="@layout/progress_bar"/>
+</FrameLayout>

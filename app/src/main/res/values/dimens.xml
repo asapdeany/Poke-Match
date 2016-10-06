@@ -1,0 +1,16 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="menuPadding">8dp</dimen>
+    <dimen name="menuTitleTextSize">50sp</dimen>
+    <dimen name="tileSize">80dp</dimen>
+    <dimen name="tilePadding">6dp</dimen>
+    <dimen name="tileMargin">6dp</dimen>
+    <dimen name="menuButtonPadding">15dp</dimen>
+    <dimen name="menuButtonMargin">10dp</dimen>
+    <dimen name="textSizeMenuButton">20sp</dimen>
+    <dimen name="playAgainTextSize">30sp</dimen>
+    <dimen name="fragment_margin_top">20dp</dimen>
+    <dimen name="game_fragment_margin_top">290dp</dimen>
+</resources>

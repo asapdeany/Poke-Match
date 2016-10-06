@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Poke-Match</string>
+    <string name="menuTitleString">Dean\'s Kanto Pokemon Matching Game</string>
+    <string name="menuButtonTextInstruction">Instructions</string>
+    <string name="menuButtonTextNewGame">New Game</string>
+    <string name="menuButtonTextContinueGame">Continue Game</string>
+    <string name="menuButtonTextAboutGame">About</string>
+    <string name="mainMenuGame">Main Menu</string>
+    <string name="clickTotal">Click Total:</string>
+    <string name="playAgain">Click to Play Again</string>
+    <string name="restartGameString">Restart Game</string>
+    <string name="clickCountString">0</string>
+</resources>
